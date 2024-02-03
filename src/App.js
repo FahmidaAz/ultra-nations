@@ -9,8 +9,8 @@ function App() {
     fetch('https://restcountries.com/v3.1/all')
     .then(response => response.json())
     .then(data =>{setCountry(data)
-      const name = data.map(country =>country.name);
-      console.log(name);
+      // const name = data.map(country =>country.name.common);
+      // console.log(name);
     });
    
    
