@@ -1,0 +1,15 @@
+.countryInfo{
+    display: flex;
+    margin-right: 40px;
+    padding: 50px;
+    background-color: rgb(185, 221, 236);
+    width: 1500px;
+    border-bottom: 1px solid lightslategray;
+}
+
+.description{
+    padding: 30px;
+    text-align: left;
+    background-color: rgb(185, 221, 236);
+    width: auto;
+}
